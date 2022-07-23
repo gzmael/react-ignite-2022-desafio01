@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 45rem;
+  width: 100%;
+  margin: 4rem auto 0;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.container ul li {
+  margin-bottom: 0.75rem;
+}
+
+.criadas {
+  display: flex;
+  align-items: center;
+  color: var(--blue-500);
+}
+
+.criadas span {
+  margin-left: 0.5rem;
+}
+
+.concluidas {
+  display: flex;
+  align-items: center;
+  color: var(--purple-500);
+}
+
+.concluidas span {
+  margin-left: 0.5rem;
+}

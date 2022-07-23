@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  padding: 1rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  transition: border ease-linear 0.3s;
+  color: var(--white)
+}
+
+.container:hover {
+  padding: 1rem;
+  border: 1px solid var(--purple-500);
+}
+
+.container::placeholder {
+  color: var(--gray-300);
+  transition: color ease-linear 0.3s;
+}
+
+.container:hover::placeholder {
+  color: var(--gray-100)
+}

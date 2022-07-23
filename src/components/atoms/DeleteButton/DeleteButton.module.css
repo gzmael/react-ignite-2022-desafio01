@@ -1,0 +1,24 @@
+.container {
+  background: transparent;
+  color: var(--gray-300);
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background ease-linear 0.3s;
+  color: var(--gray-300);
+  cursor: pointer;
+}
+
+.container:hover {
+  background: var(--blue-500);
+  color: var(--red-500);
+}
+
+.container svg {
+  transition: color ease-linear 0.3s;
+}

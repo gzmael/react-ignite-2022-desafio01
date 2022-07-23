@@ -1,0 +1,13 @@
+.container {
+  max-width: 45rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form {
+  margin-top: -27px;
+  display: grid;
+  align-items: center;
+  grid-gap: 0.5rem;
+  grid-template-columns: 1fr 90px;
+}

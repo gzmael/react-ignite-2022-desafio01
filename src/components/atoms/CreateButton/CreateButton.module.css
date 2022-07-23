@@ -1,0 +1,29 @@
+.container {
+  background: var(--blue-700);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.875rem;
+  height: 100%;
+  transition: background ease 0.3s;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  border-radius: 8px;
+}
+
+.container svg {
+  padding-left: 0.5rem;
+  width: 100%;
+}
+
+.container:hover {
+  background: var(--blue-500);
+}
+
+.container:disabled {
+  background: var(--blue-disabled);
+  cursor: not-allowed;
+}

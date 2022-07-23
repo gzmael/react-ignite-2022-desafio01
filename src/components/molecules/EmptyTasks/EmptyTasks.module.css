@@ -1,0 +1,22 @@
+.container {
+  padding: 4rem 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px solid var(--gray-400);
+}
+
+.container svg {
+  margin-bottom: 1rem;
+}
+
+.container p {
+  color: var(--gray-300);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.container p strong {
+  display: block;
+  font-weight: 700;
+}

@@ -1,0 +1,16 @@
+.wrapper .container {
+  max-width: 45rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper .container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+}
